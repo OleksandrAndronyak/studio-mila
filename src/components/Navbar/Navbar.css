@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #bc4a8b;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.navbar-nav {
+  justify-content: center;
+}
+
+li .nav-link {
+  color: white;
+}
+
+/* Option for languages */
+select {
+  background: #bc4a8b;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5) inset;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5) inset;
+}
