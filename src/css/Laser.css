@@ -3,6 +3,12 @@ Table {
   text-align: center;
 }
 
+.packs {
+  display: grid;
+  place-items: center;
+  margin-bottom: 40px;
+}
+
 .pack-container {
   width: 380px;
   height: auto;
@@ -13,7 +19,6 @@ Table {
 
 .pack-container p {
   font-weight: bold;
-  margin-bottom: 40px;
 }
 
 .price {

@@ -91,7 +91,7 @@ const Laser = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className="packs">
             <div className="pack-container">
               <div className="pack-men-header">
                 <h2>Pack Homem</h2>
@@ -120,7 +120,7 @@ const Laser = () => {
               </Table>
             </div>
           </Col>
-          <Col>
+          <Col className="packs">
             <div className="pack-container">
               <div className="pack-women-header">
                 <h2>Pack Mulher</h2>
