@@ -12,9 +12,10 @@ const Laser = () => {
       {/* Header Section */}
       <div className="header">
         <img className="responsive-image" src={banner} alt="banner" />
-        <h2 className="bottom-left-title">| Studio Mila Faro |</h2>
-        <h4 className="bottom-left-title">| Depilação a Laser |</h4>
       </div>
+      <h1>| Studio Mila Faro |</h1>
+      <h2>| Depilação a Laser |</h2>
+      <br />
       <h2>Preços</h2>
       <Container>
         <Row>

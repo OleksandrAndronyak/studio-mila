@@ -1,7 +1,4 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import "../css/Home.css";
 
 //! Import images
@@ -21,16 +18,13 @@ const Home = () => {
       {/* Header Section */}
       <div className="header">
         <img className="responsive-image" src={banner} alt="banner" />
-        <h2 className="bottom-left-title">| Studio Mila Faro |</h2>
-        <h4 className="bottom-left-description">
-          Facial | Corpo | Pés | Depilação a Laser
-        </h4>
       </div>
-      <Container>
-        <Row>
+      <div className="container">
+        <div className="row">
           {/* Description Section  */}
-          <Col className="description">
-            <h1>Studio Mila Tratamentos</h1>
+          <div className="description col-md-12">
+            <h1>| Studio Mila Faro |</h1>
+            <h2>Facial | Corpo | Pés | Depilação a Laser</h2>
             <p>
               STUDIO MILA | locatizado no centro de Faro, estamos entusiasmados
               em lançar nosso novo espaço de tratamento. Criamos uma nova e bela
@@ -74,15 +68,20 @@ const Home = () => {
                 </a>
               </li>
             </ul>
-          </Col>
-        </Row>
-        <Row className="facial-row">
-          {/* Facial Section  */}
-          <Col sm={6}>
-            <img className="facial-image" src={face} alt="facial" />
-          </Col>
-          <Col sm={6} className="facial-description">
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-21">
             <h1>Facial</h1>
+          </div>
+        </div>
+        <div className="row">
+          {/* Facial Section  */}
+          <div className="col-md-6">
+            <img className="face-img" src={face} alt="facial" />
+          </div>
+          <div className="facial-description col-md-6">
             <p>
               Experimente a indulgência do tratamento facial de máscara de ouro
               24k - um tratamento luxuoso que utiliza a mais recente tecnologia
@@ -99,13 +98,18 @@ const Home = () => {
               de máscara de ouro 24k hoje e experimente a indulgência que sua
               pele merece.
             </p>
-          </Col>
-        </Row>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-21">
+            <h1>Corpo</h1>
+          </div>
+        </div>
 
         {/* Body Section  */}
-        <Row className="body-row">
-          <Col sm={6} className="body-description">
-            <h1>Corpo</h1>
+        <div className="row">
+          <div className="body-description col-md-6">
             <p>
               Dê ao seu corpo a remodelação que ele merece com o nosso
               tratamento corporal de remodelação intensiva. Nossa fórmula
@@ -125,19 +129,24 @@ const Home = () => {
               si mesmo. Agende sua consulta hoje e comece sua jornada para um
               corpo mais confiante e bonito.
             </p>
-          </Col>
-          <Col sm={6}>
-            <img src={body} alt="body" id="body-image" />
-          </Col>
-        </Row>
+          </div>
+          <div className="col-md-6">
+            <img src={body} alt="body" id="body-img" />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-21">
+            <h1>Pés</h1>
+          </div>
+        </div>
 
         {/* Foot Section  */}
-        <Row className="foot-row">
-          <Col sm={6}>
-            <img className="foot-image" src={foot} alt="foot" />
-          </Col>
-          <Col sm={6} className="foot-description">
-            <h1>Pés</h1>
+        <div className="row">
+          <div className="col-md-6">
+            <img className="face-img" src={foot} alt="foot" />
+          </div>
+          <div className="foot-description col-md-6">
             <p>
               Se você sofre de micose, fungos ou tem pés diabéticos, sabe o quão
               difícil pode ser encontrar um tratamento eficaz. Nós entendemos e
@@ -152,13 +161,18 @@ const Home = () => {
               nossa equipe de especialistas em cuidados com os pés e comece a
               desfrutar de pés saudáveis e felizes novamente.
             </p>
-          </Col>
-        </Row>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-21">
+            <h1>Depilação a Laser</h1>
+          </div>
+        </div>
 
         {/* Laser Section  */}
-        <Row className="laser-row">
-          <Col sm={6} className="laser-description">
-            <h1>Depilação a Laser</h1>
+        <div className="row">
+          <div className="laser-description col-md-6">
             <p>
               Esqueça a preocupação com a depilação diária e experimente a
               suavidade duradoura da depilação a laser. Nossa tecnologia de
@@ -170,12 +184,12 @@ const Home = () => {
               pelos, sem esforço e por muito tempo. Agende sua sessão hoje e
               descubra a liberdade da depilação a laser.
             </p>
-          </Col>
-          <Col sm={6}>
-            <img src={laser} alt="laser" id="laser-image" />
-          </Col>
-        </Row>
-      </Container>
+          </div>
+          <div className="col-md-6">
+            <img src={laser} alt="laser" className="face-img" />
+          </div>
+        </div>
+      </div>
     </>
   );
 };

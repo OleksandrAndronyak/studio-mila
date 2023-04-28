@@ -4,21 +4,14 @@ Table {
 }
 
 .pack-container {
-  width: 400px;
+  width: 380px;
   height: auto;
   text-align: left;
   border: 1px solid rgb(222, 219, 219);
   border-radius: 10px;
-  margin: 40px;
-  margin-left: 100px;
-}
-
-h2 {
-  font-weight: bold;
 }
 
 .pack-container p {
-  margin-left: 20px;
   font-weight: bold;
 }
 

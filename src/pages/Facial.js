@@ -1,7 +1,4 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import "../css/Facial.css";
 
 //! Images
@@ -19,17 +16,18 @@ const Facial = () => {
       {/* Header Section */}
       <div className="header">
         <img className="responsive-image" src={FaceBanner} alt="banner" />
-        {/* <h2 className="bottom-left-title">| Studio Mila Faro |</h2> */}
-        {/* <h4 className="bottom-left-title">Tratamento Facial</h4> */}
       </div>
-      <Container>
+      <div className="container">
+        <h1>| Studio Mila Faro |</h1>
+        <h2>| Tratamento Facial |</h2>
+        <br />
         {/* TRATAMENTO PURIFICANTE. 6 Fases */}
         <h2>TRATAMENTO PURIFICANTE. 6 Fases</h2>
-        <Row>
-          <Col>
+        <div className="row">
+          <div className="img-div col-md-6">
             <img className="face-img" src={Purifying} alt="purifying" />
-          </Col>
-          <Col className="description-left">
+          </div>
+          <div className="col-md-6">
             <p className="title">Higiene oxigenante facial.</p>
             <p>
               PURIFYING é um plano de beleza purificador-oxigenante exclusivo
@@ -41,7 +39,6 @@ const Facial = () => {
               tratamento revolucionário que purifica a pele a todos os níveis
               sem necessitar de produtos complementares.
             </p>
-
             <p>
               Externamente, elimina a camada de poluentes superficiais e
               facilita a remoção de cravos. Internamente, desintoxica as
@@ -61,14 +58,14 @@ const Facial = () => {
             <p>
               <b>€40.00</b>
             </p>
-          </Col>
-        </Row>
+          </div>
+        </div>
         {/*  ShoneStop */}
         <br />
         <br />
         <h2>TRATAMENTO SHINESTOP. 6 Fases.</h2>
-        <Row>
-          <Col className="description-right">
+        <div className="row">
+          <div className="col-md-6">
             <p className="title">EFEITO MATTE. Pele oleosa.</p>
             <p>
               TRATAMENTO PROFISSIONAL DE EFEITO MATTE PERSONALIZADO EM FASES DE
@@ -88,22 +85,22 @@ const Facial = () => {
             <p>
               <b>€45,00</b>
             </p>
-          </Col>
-          <Col>
+          </div>
+          <div className="img-div col-md-6">
             <img className="face-img" src={ShineStop} alt="shineStop" />
-          </Col>
-        </Row>
+          </div>
+        </div>
         {/* SKIN SENSATIONS TREATMENT. 6 Phases. */}
         <h2>SKIN SENSATIONS TREATMENT. 6 Fases</h2>
-        <Row>
-          <Col>
+        <div className="row">
+          <div className="img-div col-md-6">
             <img
               className="face-img"
               src={SkinSensation}
               alt="skin-sensation"
             />
-          </Col>
-          <Col className="description-left">
+          </div>
+          <div className="description-left col-md-6">
             <p className="title">REVITALIZANTE. Anti-envelhecimento.</p>
             <p>
               TRATAMENTO REVITALIZANTE PERSONALIZADO PROFISSIONAL EM FASES DE
@@ -122,19 +119,19 @@ const Facial = () => {
             <p>
               <b>€45.00</b>
             </p>
-          </Col>
-        </Row>
+          </div>
+        </div>
         {/*  Q10 RESCUE. 6 phases. */}
         <br />
         <br />
         <h2>Q10 RESCUE. 6 Fases</h2>
-        <Row>
-          <Col className="description-right">
+        <div className="row">
+          <div className="description-right col-md-6">
             <p className="title">TRATAMENTO NUTRI</p>
             <p>
               O Centro de Pesquisa CASMARA visa reverter os três principais
-              processos responsáveis ​​pelo envelhecimento avançado da pele com
-              o Q10 RESCUE. Este tratamento de choque restaurador altamente
+              processos responsáveis pelo envelhecimento avançado da pele com o
+              Q10 RESCUE. Este tratamento de choque restaurador altamente
               energizante, reequilibrante e nutritivo é formulado com
               ingredientes ativos e tecnologias de última geração, incluindo
               SMART Q10 GPS TECHNOLOGY, precursores hormonais e β-endorfina e
@@ -163,18 +160,18 @@ const Facial = () => {
               <br />
               <b>4 Sessões €200.00</b>
             </p>
-          </Col>
-          <Col>
+          </div>
+          <div className="img-div col-md-6">
             <img className="face-img" src={Q10Rescue} alt="liporedutor" />
-          </Col>
-        </Row>
+          </div>
+        </div>
         {/* TRATAMENTO MILAGROSO DO OCEANO. 6 Fases. */}
         <h2>TRATAMENTO MILAGROSO DO OCEANO. 6 Fases.</h2>
-        <Row>
-          <Col>
+        <div className="row">
+          <div className="img-div col-md-6">
             <img className="face-img" src={oceanMiracle} alt="ocean miracle" />
-          </Col>
-          <Col className="description-left">
+          </div>
+          <div className="description-left col-md-6">
             <p className="title">FIRMANDOR. Anti-envelhecimento.</p>
             <p>
               TRATAMENTO REFIRMANTE PERSONALIZADO PROFISSIONAL EM FASES DE DOSE
@@ -198,14 +195,14 @@ const Facial = () => {
             <p>
               <b>€45.00</b>
             </p>
-          </Col>
-        </Row>
+          </div>
+        </div>
         {/*  TRATAMENTO NÁCAR AVANÇADO */}
         <br />
         <br />
         <h2>TRATAMENTO NÁCAR AVANÇADO</h2>
-        <Row>
-          <Col className="description-right">
+        <div className="row">
+          <div className="description-right col-md-6">
             <p className="title">Esclarecedor e iluminador.</p>
             <p>
               Um tratamento facial antienvelhecimento clareador e clareador
@@ -232,12 +229,12 @@ const Facial = () => {
               <br />
               <b>4 Sessões €200.00</b>
             </p>
-          </Col>
-          <Col>
+          </div>
+          <div className="img-div col-md-6">
             <img className="face-img" src={Nacar} alt="nacar" />
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

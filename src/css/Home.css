@@ -10,21 +10,10 @@
   height: auto;
 }
 
-/*! Title inside image */
-.bottom-left-title {
-  position: absolute;
-  font-weight: bold;
-  bottom: 0;
-  left: 30px;
+.row {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-
-/*! Description inside image */
-.bottom-left-description {
-  position: absolute;
-  bottom: 5px;
-  left: 30px;
-}
-
 /* --------------------------------- */
 
 /*! Description & address */
@@ -73,64 +62,51 @@ ul li a {
 
 /* ----------------------------- */
 /*! Facial row */
-.facial-row {
-  margin-top: 30px;
-}
-
 .facial-image {
-  width: 100%;
-  height: 600px;
+  width: 546px;
+  height: 546px;
 }
 
 .facial-description {
-  margin-top: 80px;
+  display: grid;
+  place-items: center;
 }
 
 /* ----------------------------- */
 /*! Body Row */
-.body-row {
-  margin-top: 60px;
-}
-
 .body-description {
+  display: grid;
+  place-items: center;
   text-align: right;
-  margin-top: 200px;
 }
 
-#body-image {
+#body-img {
   width: 100%;
-  height: 120%;
+  height: auto;
 }
 
 /* ----------------------------- */
 /*! Foot Row */
-.foot-row {
-  margin-top: 180px;
-}
-
 .foot-image {
-  width: 590px;
-  height: 650px;
+  width: 546px;
+  height: 546px;
 }
 
 .foot-description {
-  margin-top: 200px;
+  display: grid;
+  place-items: center;
 }
 
 /* ----------------------------- */
 /*! Laser Row */
-.laser-row {
-  margin-top: 80px;
-}
-
 #laser-image {
-  width: 550px;
-  height: 650px;
-  margin-bottom: 40px;
+  width: 546px;
+  height: 546px;
 }
 
 .laser-description {
-  margin-top: 250px;
+  display: grid;
+  place-items: center;
   text-align: right;
 }
 
@@ -153,8 +129,8 @@ h1 {
 
 /* Images for all page */
 .body-img {
-  width: 450px;
-  height: 500px;
+  width: 350px;
+  height: 400px;
 }
 
 .description {
@@ -167,10 +143,8 @@ h1 {
 
 .description-left {
   text-align: left;
-  margin-top: 40px;
 }
 
 .description-right {
   text-align: right;
-  margin-top: 40px;
 }

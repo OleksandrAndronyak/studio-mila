@@ -11,9 +11,10 @@ const Foot = () => {
       {/* Header Section */}
       <div className="header">
         <img className="responsive-image" src={banner} alt="banner" />
-        <h2 className="bottom-left-title">| Studio Mila Faro |</h2>
-        <h4 className="bottom-left-title">| Spa dos Pés |</h4>
       </div>
+      <h1>| Studio Mila Faro |</h1>
+      <h2>| Spa dos Pés |</h2>
+      <br />
       <h2>Preços</h2>
       <Container>
         <Row>

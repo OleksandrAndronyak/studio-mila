@@ -1,28 +1,26 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import BodyBanner from "../images/body/download-50.jpg";
 import liporedutor from "../images/body/10F5C9B8-EB2A-4FE3-A15D-5BD016C52E81.jpeg";
 
 const Body = () => {
   return (
-    <article>
+    <>
       {/* Header Section */}
       <div className="header">
         <img className="responsive-image" src={BodyBanner} alt="banner" />
-        <h2 className="bottom-left-title">| Studio Mila Faro |</h2>
-        <h4 className="bottom-left-title">Spa do Corpo</h4>
       </div>
-      <Container>
+      <div className="container">
+        <h1>| Studio Mila Faro |</h1>
+        <h2>| Spa do Corpo |</h2>
+        <br />
         <h2>LIPOREDUTOR ANTI-CELULÍTICO</h2>
 
         {/* Liporedutor Anti-Celulitico */}
-        <Row>
-          <Col>
+        <div className="row">
+          <div className="img-div col-md-6">
             <img className="body-img" src={liporedutor} alt="liporedutor" />
-          </Col>
-          <Col className="description-left">
+          </div>
+          <div className="description-left col-md-6">
             <p className="title">
               Tratamento Corporal Liporedutor, AntiCelulítico, Drenante e
               Reafirmador.
@@ -52,15 +50,15 @@ const Body = () => {
               <br />
               <b>10 Sessões €500.00</b>
             </p>
-          </Col>
-        </Row>
+          </div>
+        </div>
 
         <br />
         <br />
         <h2>REAFIRMADOR + PREVENTIVO</h2>
         {/*  REAFIRMADOR + PREVENTIVO */}
-        <Row>
-          <Col className="description-right">
+        <div className="row">
+          <div className="description-right col-md-6">
             <p className="title">Tratamento corporal reafirmador</p>
             <p>
               Atua sobre o colagénio e a elastina, substâncias responsáveis pela
@@ -91,22 +89,22 @@ const Body = () => {
               <br />
               <b>10 Sessões €500.00</b>
             </p>
-          </Col>
-          <Col>
+          </div>
+          <div className="img-div col-md-6">
             <img className="body-img" src={liporedutor} alt="liporedutor" />
-          </Col>
-        </Row>
+          </div>
+        </div>
 
         <br />
         <br />
         <h2>Intensive Remodeling</h2>
 
         {/* Liporedutor Anti-Celulitico */}
-        <Row>
-          <Col>
+        <div className="row">
+          <div className="img-div col-md-6">
             <img className="body-img" src={liporedutor} alt="liporedutor" />
-          </Col>
-          <Col className="description-left">
+          </div>
+          <div className="description-left col-md-6">
             <p className="title">INTENSIVE REMODELING BODY TREATMENT</p>
             <p>
               É o tratamento corporal definitivo para remodelar a silhueta da
@@ -136,10 +134,10 @@ const Body = () => {
               <br />
               <b>10 Sessões €500.00</b>
             </p>
-          </Col>
-        </Row>
-      </Container>
-    </article>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
