@@ -13,6 +13,7 @@ Table {
 
 .pack-container p {
   font-weight: bold;
+  margin-bottom: 40px;
 }
 
 .price {
