@@ -22,7 +22,7 @@ const Facial = () => {
         <h2>| Tratamento Facial |</h2>
         <br />
         {/* TRATAMENTO PURIFICANTE. 6 Fases */}
-        <h2>TRATAMENTO PURIFICANTE. 6 Fases</h2>
+        <h2>TRATAMENTO PURIFICANTE</h2>
         <div className="row">
           <div className="img-div col-md-6">
             <img className="face-img" src={Purifying} alt="purifying" />
@@ -63,7 +63,7 @@ const Facial = () => {
         {/*  ShoneStop */}
         <br />
         <br />
-        <h2>TRATAMENTO SHINESTOP. 6 Fases.</h2>
+        <h2>TRATAMENTO SHINESTOP</h2>
         <div className="row">
           <div className="col-md-6">
             <p className="title">EFEITO MATTE. Pele oleosa.</p>
@@ -91,7 +91,7 @@ const Facial = () => {
           </div>
         </div>
         {/* SKIN SENSATIONS TREATMENT. 6 Phases. */}
-        <h2>SKIN SENSATIONS TREATMENT. 6 Fases</h2>
+        <h2>SKIN SENSATIONS TREATMENT</h2>
         <div className="row">
           <div className="img-div col-md-6">
             <img
@@ -124,7 +124,7 @@ const Facial = () => {
         {/*  Q10 RESCUE. 6 phases. */}
         <br />
         <br />
-        <h2>Q10 RESCUE. 6 Fases</h2>
+        <h2>Q10 RESCUE</h2>
         <div className="row">
           <div className="description-right col-md-6">
             <p className="title">TRATAMENTO NUTRI</p>
@@ -165,8 +165,8 @@ const Facial = () => {
             <img className="face-img" src={Q10Rescue} alt="liporedutor" />
           </div>
         </div>
-        {/* TRATAMENTO MILAGROSO DO OCEANO. 6 Fases. */}
-        <h2>TRATAMENTO MILAGROSO DO OCEANO. 6 Fases.</h2>
+        {/* TRATAMENTO MILAGROSO DO OCEANO */}
+        <h2>TRATAMENTO MILAGROSO DO OCEANO</h2>
         <div className="row">
           <div className="img-div col-md-6">
             <img className="face-img" src={oceanMiracle} alt="ocean miracle" />
