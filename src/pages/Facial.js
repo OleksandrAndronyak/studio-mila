@@ -56,7 +56,7 @@ const Facial = () => {
               ser usado durante todo o ano.
             </p>
             <p>
-              <b>€40.00</b>
+              <b>€45.00</b>
             </p>
           </div>
         </div>
