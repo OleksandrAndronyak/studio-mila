@@ -19,7 +19,14 @@ const Home = () => {
       <div className="header">
         <img className="responsive-image" src={banner} alt="banner" />
       </div>
+
       <div className="container">
+        {/* Button for Bookings  */}
+        <a href="whatsapp://send?text=Boa tarde!&phone=+351937515934">
+          <button className="button">
+            Clique aqui e faça o seu agendamento
+          </button>
+        </a>
         <div className="row">
           {/* Description Section  */}
           <div className="description col-md-12">
