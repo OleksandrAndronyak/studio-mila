@@ -46,8 +46,7 @@ const Home = () => {
                   <span className="location">
                     <TfiLocationPin />
                   </span>
-                  Largo do vinte e cinco de abril, Pça dos Poetas 1D, 8000-157
-                  Faro, Portugal
+                  R. Dom João de Castro Nº 3, 8000-309 Faro, Portugal
                 </address>
               </li>
               <li>
